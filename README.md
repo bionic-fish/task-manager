@@ -16,5 +16,9 @@ JavaScript Features Learned:<br>
 Event handling: used to ensure a specific function, action or event happens when a user interacts. I attached an event listener to the top header button with an event listener. This included an onclick event, and a function that reads the data input, if there is any, and proceeds to create a list with the aforemention extracted data string input.
 <br>
 
-Creating HTML elements:<br>
+Creating HTML elements: used within JavaScript to create, position and restructure html page content. I used the createElements function to create the list container (ul), a div area for the buttons (div), and 2 buttons, a delete button (button.delete), and a complete button (button.complete).
+<br>
+
+Appending Child Elements: used within JavaScript after creating HTML elements. The append feature provides a way to position created elements inside specific parent or child elements or nodes. 
+
 
