@@ -11,4 +11,10 @@ Category 2: leave the list items in the parent container until and event is trig
 
 Attach event handlers to create list items, add a complete and delete button in the list interface and attach the input data to the list
 
-JavaScript Features Learned:
+JavaScript Features Learned:<br>
+
+Event handling: used to ensure a specific function, action or event happens when a user interacts. I attached an event listener to the top header button with an event listener. This included an onclick event, and a function that reads the data input, if there is any, and proceeds to create a list with the aforemention extracted data string input.
+<br>
+
+Creating HTML elements:<br>
+
