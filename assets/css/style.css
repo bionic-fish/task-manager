@@ -31,7 +31,7 @@ body {
       text-align: center;
       padding: 5px;
       color: #fff;
-  
+
   }
   #topbar a {
       color: #fff;
@@ -65,7 +65,7 @@ body {
     margin: 50px auto;
     margin-top: 50px;
     padding-top: 20px;
-    
+
 }
 .section__container {
     display: flex;
@@ -87,7 +87,7 @@ header {
     left: 0; */
     margin: auto;
     padding: 15px;
-    
+
     z-index: 5;
     background: rgba(53, 104, 214, 0.9);
     box-shadow: 0px 2px 4px rgba(44,62,80,0.15);
@@ -102,23 +102,23 @@ header input {
     border: 0px;
     border-radius: 25px 25px;
     text-align: center;
-    
+
     font-size: 18px;
     font-weight: bolder;
     text-indent: 15px;
     box-shadow: none;
     outline: none;
-    
+
     -webkit-appearance: none;
     -moz-appearance: none;
     /* -ms-progress-appearance: none;
     -o-appearance: none;
     appearance: none; */
 }
-header input:active,
+/* header input:active,
 header input::after {
     background-color: red;
-}
+} */
 /* browser compatibility placeholder style */
 header input::-webkit-input-placeholder {
     color:rgba(231, 115, 47, 0.842);
@@ -137,7 +137,7 @@ header button {
 
     width: 50px;
     height: 50px;
-    
+
     float: right;
     z-index: 2;
     border-radius: 25px;
@@ -165,11 +165,11 @@ Component Icons
     [notepad = add task btn],
     [trashcan = delete task list item],
     [right tick = task list item completed */
-.far, 
+.far,
 .fas {
     font-size: 15px;
     padding: 8px;
-}  
+}
 
 /* todo task app */
 .app {
@@ -229,7 +229,7 @@ ul.to li .buttons button:last-of-type::before {
     position: absolute;
     top: 10px;
     left: 0;
-    
+
 }
 ul.todo#completed li .buttons .button.complete:hover {
     background: lightgreen;
@@ -283,7 +283,7 @@ i {
     #app__container,
     .app {
         width: 100%;
-        
+
     }
     .container {
         width: 100%;
@@ -300,5 +300,5 @@ i {
     #topbar {
         height: fit-content;
     }
-    
+
 }
