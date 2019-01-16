@@ -10,22 +10,33 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- ext. libs -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet">
+
 
 </head>
 <body>
+    <div id="topbar">
+        <span class="topbar__left">
+            <h2>Interactive JS Projects</h2>
+            <h4>By C D Harris.</h4>
+        </span>
+
+        <span class="topbar__right">
+            <a href="https://bionic-fish.github.io/">portfolio</a>
+            <a href="https://bionic-fish.github.io/js-interactive/">projects</a>
+            <a href="https://github.com/bionic-fish">github</a>    
+        </span>
+    </div>
     <!-- banner | heading elements -->
     <br>
     
-    <section class="banner">
-            <div class="container">        
-            <h2><i class="far fa-address-book"></i>
-                Task Management App</h2>
-            </div>
-            </section>
+    <div class="heading">
+    <h2><i class="far fa-address-book"></i>Task Management App</h2>
+    </div>
     
-    
-<!-- header element
+    <section id="app__container">
+    <!-- header element
 
 Components:
         [header.header],
@@ -39,31 +50,30 @@ Ext Lib:
         <i class="far fa-edit"></i>
         </button>
     </header>
-    
-<!-- taskApp element
 
-Components:
-        [div.app],
-        [ul.todo #todo],
-        [ul.todo #completed]
--->
     <div class="app">
-
     <!-- task list "todo" list -->
     <ul class="todo" id="todo"></ul>
-       
     <!-- task list "complete" list -->
     <ul class="todo" id="completed"></ul>
-    
     <!-- app ends here-->
     </div>
+
+    </section>
     
-    <!-- footer -->
-    <footer>
-    <div class="container">
-        <h5>App created by C D Harris<br>
-        Site Hosted on Github Pages</h5>
+    <div class="container section__container">
+        <h2>About</h2>
+        <p>Begin by typing a task or activity you wish to complete. Click the button to add it to the 
+        list. If no list is visible, you will need to add a starter list item. The rubbish bin icon is 
+        used to delete the current list item. The tick icon is used to complete the task and place it
+        in a completed list area.
+        </p>
     </div>
+
+    <!-- footer -->
+    <footer id="footer">
+    <h5>App created by C D Harris<br>
+        Site Hosted on Github Pages</h5>
     </footer>
 
     <!-- script sources -->
